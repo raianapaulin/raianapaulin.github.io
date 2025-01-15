@@ -93,7 +93,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site com Fundo Amarelo Claro e Flores</title>
+    <title>Site de Utensílios de Cozinha</title>
     <style>
         /* Definindo o fundo amarelo claro e outras propriedades básicas */
         body {
@@ -103,8 +103,10 @@
             text-align: center;
             margin: 0;
             padding: 0;
+            position: relative;
+            overflow: hidden;
         }
-        
+
         /* Estilo para o título */
         h1 {
             font-size: 3em;
@@ -122,25 +124,74 @@
             padding: 20px;
         }
 
-        /* Adicionando flores pequenas como fundo */
-        .flower {
-            background-image: url('https://img.icons8.com/ios/50/ffffff/flower.png'); /* Ícone de flor branca */
+        /* Adicionando utensílios de cozinha como fundo */
+        .utensil {
             background-repeat: no-repeat;
             background-size: 50px;
-            width: 100%;
-            height: 100%;
             position: absolute;
             z-index: -1;
-            top: 0;
-            left: 0;
-            background-position: 10px 10px, 200px 150px, 350px 250px, 500px 350px; /* Posições aleatórias para flores */
         }
+
+        /* Adicionando utensílios de cozinha */
+        .utensil1 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/fork-and-knife.png'); /* Talheres */
+            top: 30px; left: 50px;
+        }
+        .utensil2 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/plate.png'); /* Prato */
+            top: 100px; left: 150px;
+        }
+        .utensil3 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/spoon.png'); /* Colher */
+            top: 200px; left: 250px;
+        }
+        .utensil4 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/whisk.png'); /* Batedor */
+            top: 300px; left: 350px;
+        }
+        .utensil5 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/cooking-pot.png'); /* Panela */
+            top: 400px; left: 450px;
+        }
+        .utensil6 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/knife.png'); /* Faca */
+            top: 500px; left: 550px;
+        }
+        .utensil7 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/grater.png'); /* Ralador */
+            top: 150px; left: 600px;
+        }
+        .utensil8 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/cup.png'); /* Copo */
+            top: 250px; left: 150px;
+        }
+        .utensil9 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/knife-and-fork.png'); /* Talheres cruzados */
+            top: 450px; left: 100px;
+        }
+        .utensil10 { 
+            background-image: url('https://img.icons8.com/ios/50/ffffff/bowl.png'); /* Tigela */
+            top: 350px; left: 600px;
+        }
+
     </style>
 </head>
 <body>
-    <div class="flower"></div>
+    <div class="utensil utensil1"></div>
+    <div class="utensil utensil2"></div>
+    <div class="utensil utensil3"></div>
+    <div class="utensil utensil4"></div>
+    <div class="utensil utensil5"></div>
+    <div class="utensil utensil6"></div>
+    <div class="utensil utensil7"></div>
+    <div class="utensil utensil8"></div>
+    <div class="utensil utensil9"></div>
+    <div class="utensil utensil10"></div>
+
     <div class="container">
-        
+        <h1>Bem-vindo ao Mundo dos Utensílios de Cozinha!</h1>
+        <p>Este site tem um fundo amarelo claro com utensílios de cozinha brancos decorando a página.</p>
+        <p>Explore e se inspire!</p>
     </div>
 </body>
 </html>
